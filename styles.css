@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+  background-color: antiquewhite;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+nav{
+  font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  height: 45px;
+}
+nav ul li{
+  padding: 0px 12px;
+
+}
+ .brand img{
+  width: 34px;
+  padding: 0px 8px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;}
+.container{
+  min-height: 62vh;
+  background-color: black;
+  color: white;
+  font-family: 'Varela Round',sans-serif;
+  display: flex;
+  border-radius: 12px;
+  padding: 34px;
+  margin: 23px auto;
+  width: 70%;
+  background-image: url('bg.jpg');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .bottom{
+    background-color: black;
+    position:sticky;
+    bottom: 0;
+    color: white;
+    height: 90px;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 10px;
+  }
+  .icons{
+    margin-top: 14px;
+  }
+  .icons i{
+    cursor: pointer;
+  }
+
+  #myProgressBar{
+    width: 80vw;
+cursor: pointer;
+  }
+  .songItem{
+    height: 48px;
+    display: flex;
+    background-color: white;
+    /* width: 70%; */
+    color: black;
+    margin:12px 0px;
+    border-radius:34px;
+    justify-content:space-between;
+    align-items: center;
+    /* height:30px; */
+  font-family: 'Ubuntu',sans-serif;
+  }
+  .songItem img{
+    width: 34px;
+        border-radius: 34px;
+    margin:0 15px;
+
+  }
+.timespan{
+  margin:0 23px;
+}
+.timespan i{
+  cursor: pointer;
+}
+.songitemcontainer{
+  margin-top: 32px;
+}
+.songinfo{
+  position: absolute;
+  left: 10vw;
+  font-family: 'Varela Round',sans-serif;
+
+}
+.songinfo img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+
+}
+/* .Songlist{
+  margin-top: 0px;
+} */
